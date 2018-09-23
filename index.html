@@ -6,39 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
 
+
 <body>
     <div id="mobile-menu-open" class="shadow-large">
         <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
     <!-- End #mobile-menu-toggle -->
-    <header>
+
+
+
+<!-- ############################################-->
+<!-- HEADER #####################################-->
+<!-- ############################################-->
+    <header class="sticky">
         <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+            <span>Close</span> <i class="fa fa-times" aria-hidden="false"></i>
         </div>
         <ul id="menu" class="shadow">
             <li>
-                <a href="#about">About</a>
+                <a href="#about">About Me</a>
             </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
+
             <li>
                 <a href="#education">Education</a>
             </li>
+
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+
             <li>
                 <a href="#projects">Projects</a>
             </li>
+
             <li>
                 <a href="#skills">Skills</a>
             </li>
+
             <li>
                 <a href="#contact">Contact</a>
             </li>
@@ -46,11 +58,16 @@
     </header>
     <!-- End header -->
 
+
+<!-- ############################################-->
+<!-- LEAD #######################################-->
+<!-- ############################################-->
     <div id="lead">
         <div id="lead-content">
             <h1>Zach Duguid</h1>
-            <h2>Undergraduate Student</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+            <h2>Graduate Student</h2>
+            <h2>MIT-WHOI Joint Program</h2>
+            <a href="images/duguid-CV.pdf" class="btn-rounded-white">View CV</a>
         </div>
         <!-- End #lead-content -->
 
@@ -65,164 +82,282 @@
     </div>
     <!-- End #lead -->
 
-    <div id="about">
+
+<!-- ############################################-->
+<!-- ABOUT ######################################-->
+<!-- ############################################-->
+
+    <div id="about" class="background-alt1">
+        <h2 class="heading">About Me</h2>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
+                <div class="about shadow-large">
+
+                    <div class="about-image">
+                        <img src="images/about-me.jpg"
+                             width=300>
+                    </div>
+                    <!-- End .about-me-image -->
+                    <div class="about-info">
+                        <p align="justify">
+                            I'm a first year graduate student in the MIT-WHOI Joint Program pursuing a PhD in Applied Ocean Science and Engineering. Currently, my research focuses on the development of autonomous underwater vehicles (AUVs) that are capable of conducting under-ice missions. This work is important because it will expand our understanding of Earth's annual ice cycle and it will help us make informed decisions regarding our climate-change efforts. Outside of research, I enjoy staying active by cycling, skiing, and playing basketball. Also, as an undergraduate, I played four years of varsity football and I took the necessary PE courses to receive MIT's famed Pirate Certificate.
+                        </p>
+                    </div>
+                    <!-- End .about-me-info -->
+
                 </div>
-                <div class="col-md-8">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
-                    </p>
-                </div>
+                <!-- End .about-me -->
             </div>
         </div>
     </div>
-    <!-- End #about -->
+    <!-- End #about-me -->
 
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- End #experience -->
+<!-- ############################################-->
+<!-- EDUCATION ##################################-->
+<!-- ############################################-->
+    <div id="education" class="background-alt2">
+        <h2 class="heading"> <br/> Education</h2>
 
-    <div id="education">
-        <h2 class="heading">Education</h2>
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
+            <h3>MIT-WHOI Joint Program</h3>
+            <span class="education-date">Aug 2018 - Present</span>
+            <h4>PhD Student in Applied Ocean Science and Engineering <br/>
+                Advisers: Brian Williams and Richard Camilli
+            </h4>
         </div>
         <!-- End .education-block -->
 
+
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
+            <h3>Massachusetts Institute of Technology</h3>
+            <span class="education-date">Aug 2014 - Jun 2018</span>
+            <h4>Bachelor of Science in Aerospace Engineering <br/> Minor in Computer Science</h4>
         </div>
         <!-- End .education-block -->
     </div>
     <!-- End #education -->
 
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
+
+
+<!-- ############################################-->
+<!-- EXPERIENCE #################################-->
+<!-- ############################################-->
+
+    <div id="experience" class="background-alt1">
+        <h2 class="heading"> <br/> Experience</h2>
+        <div id="experience-timeline">
+
+            <div data-date="Jun 2018 – Aug 2018 <br/> Sydney, NSW">
+                <h3>Australian Centre for Field Robotics</h3>
+                <h4>Visiting Researcher</h4>
+                <p>
+                    With ACFR, I implemented a Generative Adversarial Network (GAN) machine learning architecture to make bathymetry predictions given sparse sonar readings, a prediction problem similar to image inpainting. To improve learning, I generated large sets of training data by simulating vehicle dynamics and sonar measurements.
+                </p>
+            </div>
+
+
+            <div data-date="Sep 2017 – Jun 2018 <br/> Cambridge, MA">
+                <h3>Computer Science and Artificial Intelligence Laboratory</h3>
+                <h4>Undergraduate Researcher</h4>
+                <p>
+                    With CSAIL, I helped deploy an array of AUVs off the coast of the Hawaiian Islands to demonstrate human-robot interaction, multi-agent execution, and adaptive sampling techniques in a challenging ocean environment. Contributing to these efforts, I developed energy-aware path planning capabilities using a chance-constrained MDP framework.
+                </p>
+            </div>
+
+
+            <div data-date="May 2017 – Aug 2017 <br/> Woods Hole, MA">
+                <h3>Woods Hole Oceanographnic Institution</h3>
+                <h4>Summer Research Fellow</h4>
+                <p>
+                    With WHOI, I created a graphical user interface to monitor the battery state of the Slocum Glider vehicle. To take advantage of the long-endurance capability of the Slocum Gliders, I performed vehicle range analysis for different power mode scenarios and ocean current conditions. From the hardware perspective, I also designed and built the internal battery pack chassis to increase strength and decrease weight for the glider.
+                </p>
+            </div>
+
+
+            <div data-date="Jun 2016 – Aug 2016 <br/> San Diego, CA">
+                <h3>Northrop Grumman</h3>
+                <h4>Systems Integration, Test, and Evaluation Engineer</h4>
+                <p>
+                    With Northrop Grumman, I programmed a Google Earth visualization tool that displays flight data from the Global Hawkaircraft by assimilating and synchronizing state variables across multiple data files. Along with developing a flight visualization tool, I also operated software and hardware components of the Global Hawk in order to conduct systemand subsystem level testing for segment integration.
+                </p>
+            </div>
+
+
+            <div data-date="Feb 2016 – May 2016 <br/> Cambridge, MA">
+                <h3>Man Vehicle Laboratory</h3>
+                <h4>Undergraduate Researcher</h4>
+                <p>
+                    With MVL, I assessed the accuracy of the Enhanced Dynamic Load Sensor for the International Space Station (EDLS-ISS), a platform used for strength training in microgravity environments. To do so, I extracted motion data from test subjects performing various weightlifting movements while undergoing microgravity via NASA’s parabolic flight program to develop a musculoskeletal model.
+                </p>
+            </div>
+
+
+            <div data-date="Jun 2015 – Aug 2015 <br/> Hong Kong, HK">
+                <h3>Hong Kong University of Science and Technology</h3>
+                <h4>Undergraduate Researcher</h4>
+                <p>
+                    With HKUST, I analyzed protein localization in yeast cells to identify novel protein pathways in retrograde transport. While doing so, I learned common wet lab operations such as cell transformations, DNA extractions, and PCR amplifications.
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <!-- End #experience -->
+
+
+<!-- ############################################-->
+<!-- PROJECTS ###################################-->
+<!-- ############################################-->
+    <div id="projects" class="background-alt2">
+        <h2 class="heading"> <br/> Projects</h2>
         <div class="container">
             <div class="row">
+
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/proj-ACFR.jpg"
+                             width=300>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        <h3>Adversarial Autoencoder for Predicting Bathymetry Given Sparse Sonar Data</h3>
+                        <p align="justify">
+                            Autonomous Underwater Vehicles (AUVs) are commonly used for ocean exploration, often in dangerous and unknown environments. Due to the power constraints and risks involved, AUVs are not typically equipped with expensive high-resolution sensors. As a result, instruments such as acoustic sonar only achieve a partial coverage of the underlying bathymetry. To maximize the information gain from partial coverage sonar measurements, I propose a GAN-based approach to predict the missing sonar information. Specifically, I propose an Adversarial Autoencoder (AAE) structure that utilizes adversarial training to perform inference.
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://github.com/zduguid/aae">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
 
+
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/proj-CSAIL.jpg"
+                             width=300>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        <h3>Energy-Optimal Path Planning for AUVs</h3>
+                        <p align="justify">
+                            From vehicle range analysis that I conducted at WHOI, it is shown that large performance gains can be achieved by optimizing AUV speed subject to both hotel load scenarios and ocean current conditions. In this context, hotel load refers to the power load of all non-propulsive systems. To demonstrate the advantage of varying AUV speed, I developed a speed controller that calculates the optimal speed given the vehicle's thruster efficiency along with the hotel load scenario and ocean current conditions. This controller was implemented to support a field robotics campaign off the coast of Hawaii for the Slocum Glider vehicle.
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://github.com/zduguid/slocum-path-planning-utils">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
+
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/proj-WHOI.png"
+                             width=300>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Battery Chassis Design for Slocum Glider</h3>
+                        <p align="justify">
+                            The Slocum Glider AUV contains 3200 Whrs worth of charge spread across four unique battery packs, which enables the vehicle to conduct long-range survey missions. In order to reach this power capacity, I carefully designed the battery chassis for each individual battery pack. I utilized computer aided design (CAD) software to iterate on the design of the chassis. Design decisions were made to maximize strength, minimize weight, and minimize the volume footprint within the hull of the glider. 3D printing construction methods allowed me pursue highly customized designs that would be been nearly impossible to construct in a machine shop. 
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/proj-16405.jpg"
+                             width=300>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Autonomous Car Perception, Planning, and Control Challenge</h3>
+                        <p align="justify">
+                            The autonomous car challenge had two core requirements: the ability perceive cones of different color while avoiding collisions with said cones, and the ability to race around a track without colliding with walls or spinning out. This challenge tied together three core principles of autonomous systems: perception, planning, and control. Two stereocameras and one Lidar scanner were used to sense the environment, and ROS was used when implementing the software systems.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=D6xNe-15Qyk&t=3s">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/proj-16413.png"
+                             width=300>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Optimal Version of Rapid Exploring Random Trees</h3>
+                        <p align="justify">
+                            For some path planning scenarios, incorporating random sampling methods can be highly beneficial. Rapid exploring Random Trees (RRT) randomly samples from high dimensional configuration spaces to discover branching paths which quickly lead to a solution of the path planning problem. One issue with the general RRT algorithm is that is proven to yield sub-optimal results. In this project, I implement an optimized version of the RRT algorithm that updates the branches of the tree as exploring progresses in order to promote optimality in the solution.
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/proj-1683.jpg"
+                             width=300>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Rotating Synthetic Aperture Space Telescope</h3>
+                        <p align="justify">
+                            For this project, my team and I analyzed the feasibility of producing a  rotating synthetic aperture space telescope that is capable of producing images synthesized images of equivalent quality compared to traditional circular aperture systems. My contribution to this effort was to develop the image processing pipeline to determine how the synthesized would be created from a sequence of frames. Ultimately, we concluded that this system would not be appropriate for Low Earth Orbit (LEO) because of the large angular momentum required to image a point on Earth's surface in this orbit.
+                        </p>
+                        <a href="https://github.com/zduguid/rsa-image-processing">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
             </div>
         </div>
     </div>
     <!-- End #projects -->
 
+
+<!-- ############################################-->
+<!-- SKILLS #####################################-->
+<!-- ############################################-->
     <div id="skills">
-        <h2 class="heading">Skills</h2>
+        <h2 class="heading"><br/>Skills</h2>
         <ul>
-            <li>JavaScript</li>
             <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
+            <li>Lisp</li>
             <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
             <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
             <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li>Matlab</li>
+            <li>Simulink</li>
+            <li>ROS</li>
+            <li>Keras</li>
+            <li>Latex</li>
+            <li>User Interface Design</li>
+            <li>CAD</li>
+            <li>3D Printing</li>
+            <li>Photoshop</li>
         </ul>
     </div>
     <!-- End #skills -->
 
+
+<!-- ############################################-->
+<!-- CONTACT ####################################-->
+<!-- ############################################-->
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
+            <form method="POST" action="https://formspree.io/zach.duguid@gmail.com">
                 <input type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message" required></textarea>
                 <button type="submit">Send</button>
@@ -237,7 +372,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2017 YOUR NAME
+                        Copyright &copy; 2018 Zach Duguid
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -248,19 +383,10 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/zduguid" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/zachary-duguid-32e/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
