@@ -67,7 +67,7 @@
             <h1>Zach Duguid</h1>
             <h2>Graduate Student</h2>
             <h2>MIT-WHOI Joint Program</h2>
-            <a href="images/duguid-CV.pdf" class="btn-rounded-white">View CV</a>
+            <a href="images/duguid-resume.pdf" class="btn-rounded-white">View Resume</a>
         </div>
         <!-- End #lead-content -->
 
@@ -100,7 +100,7 @@
                     <!-- End .about-me-image -->
                     <div class="about-info">
                         <p align="justify">
-                            I'm a first year graduate student in the MIT-WHOI Joint Program pursuing a PhD in Applied Ocean Science and Engineering. Currently, my research focuses on the development of autonomous underwater vehicles (AUVs) that are capable of conducting under-ice missions. This work is important because it will expand our understanding of Earth's annual ice cycle and it will help us make informed decisions regarding our climate-change efforts. Outside of research, I enjoy staying active by cycling, skiing, and playing basketball. Also, as an undergraduate, I played four years of varsity football and I took the necessary PE courses to receive MIT's famed Pirate Certificate.
+                            I’m a second year graduate student in the MIT-WHOI Joint Program pursuing a PhD in Applied Ocean Science and Engineering. My research focuses on the intersection of numerical ocean modeling and the guidance of autonomous vehicles. By better understanding complex ocean processes such as sea-ice growth and destruction, we can design safer and more efficient missions for autonomous vehicles that explore the ocean. Outside of research, I enjoy staying active by skiing, cycling, and playing basketball. I’ve recently started running as well, but I’m still trying to convince myself that its a fun recreational activity. 
                         </p>
                     </div>
                     <!-- End .about-me-info -->
@@ -121,10 +121,10 @@
         <h2 class="heading"> <br/> Education</h2>
 
         <div class="education-block">
-            <h3>MIT-WHOI Joint Program</h3>
+            <h3>Massachusetts Institute of Technology</h3>
             <span class="education-date">Aug 2018 - Present</span>
-            <h4>PhD Student in Applied Ocean Science and Engineering <br/>
-                Advisers: Brian Williams and Richard Camilli
+            <h4>Master of Science in Mechanical Engineering <br/>
+                Advisers: Pierre Lermusiaux and Richard Camilli
             </h4>
         </div>
         <!-- End .education-block -->
@@ -215,6 +215,25 @@
         <div class="container">
             <div class="row">
 
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/proj-16405.jpg"
+                             width=300>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Perception, Planning, and Control for Autonomous Racecar</h3>
+                        <p align="justify">
+                            The autonomous car challenge had two core requirements: the ability perceive cones of different color while avoiding collisions with said cones, and the ability to race around a track without colliding with walls or spinning out. This challenge tied together three core principles of autonomous systems: perception, planning, and control. Two stereocameras and one Lidar scanner were used to sense the environment, and ROS was used when implementing the software systems.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=D6xNe-15Qyk&t=3s">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+
                 <div class="project shadow-large">
                     <div class="project-image">
                         <img src="images/proj-ACFR.jpg"
@@ -227,6 +246,23 @@
                             Autonomous Underwater Vehicles (AUVs) are commonly used for ocean exploration, often in dangerous and unknown environments. Due to the power constraints and risks involved, AUVs are not typically equipped with expensive high-resolution sensors. As a result, instruments such as acoustic sonar only achieve a partial coverage of the underlying bathymetry. To maximize the information gain from partial coverage sonar measurements, I propose a GAN-based approach to predict the missing sonar information. Specifically, I propose an Adversarial Autoencoder (AAE) structure that utilizes adversarial training to perform inference.
                         </p>
                         <a href="https://github.com/zduguid/aae">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/proj-WHOI.png"
+                             width=300>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Battery Chassis Design for Slocum Glider</h3>
+                        <p align="justify">
+                            The Slocum Glider AUV contains 3200 Whrs worth of charge spread across four unique battery packs, which enables the vehicle to conduct long-range survey missions. In order to reach this power capacity, I carefully designed the battery chassis for each individual battery pack. I utilized computer aided design (CAD) software to iterate on the design of the chassis. Design decisions were made to maximize strength, minimize weight, and minimize the volume footprint within the hull of the glider. 3D printing construction methods allowed me pursue highly customized designs that would be been nearly impossible to construct in a machine shop. 
+                        </p>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -253,68 +289,15 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/proj-WHOI.png"
-                             width=300>
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Battery Chassis Design for Slocum Glider</h3>
-                        <p align="justify">
-                            The Slocum Glider AUV contains 3200 Whrs worth of charge spread across four unique battery packs, which enables the vehicle to conduct long-range survey missions. In order to reach this power capacity, I carefully designed the battery chassis for each individual battery pack. I utilized computer aided design (CAD) software to iterate on the design of the chassis. Design decisions were made to maximize strength, minimize weight, and minimize the volume footprint within the hull of the glider. 3D printing construction methods allowed me pursue highly customized designs that would be been nearly impossible to construct in a machine shop. 
-                        </p>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/proj-16405.jpg"
-                             width=300>
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Autonomous Car Perception, Planning, and Control Challenge</h3>
-                        <p align="justify">
-                            The autonomous car challenge had two core requirements: the ability perceive cones of different color while avoiding collisions with said cones, and the ability to race around a track without colliding with walls or spinning out. This challenge tied together three core principles of autonomous systems: perception, planning, and control. Two stereocameras and one Lidar scanner were used to sense the environment, and ROS was used when implementing the software systems.
-                        </p>
-                        <a href="https://www.youtube.com/watch?v=D6xNe-15Qyk&t=3s">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-
-                <div class="project shadow-large">
-                    <div class="project-image">
                         <img src="images/proj-16413.png"
                              width=300>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Optimal Version of Rapid Exploring Random Trees</h3>
+                        <h3>Optimal Rapid Exploring Random Trees</h3>
                         <p align="justify">
                             For some path planning scenarios, incorporating random sampling methods can be highly beneficial. Rapid exploring Random Trees (RRT) randomly samples from high dimensional configuration spaces to discover branching paths which quickly lead to a solution of the path planning problem. One issue with the general RRT algorithm is that is proven to yield sub-optimal results. In this project, I implement an optimized version of the RRT algorithm that updates the branches of the tree as exploring progresses in order to promote optimality in the solution.
                         </p>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/proj-1683.jpg"
-                             width=300>
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Rotating Synthetic Aperture Space Telescope</h3>
-                        <p align="justify">
-                            For this project, my team and I analyzed the feasibility of producing a  rotating synthetic aperture space telescope that is capable of producing images synthesized images of equivalent quality compared to traditional circular aperture systems. My contribution to this effort was to develop the image processing pipeline to determine how the synthesized would be created from a sequence of frames. Ultimately, we concluded that this system would not be appropriate for Low Earth Orbit (LEO) because of the large angular momentum required to image a point on Earth's surface in this orbit.
-                        </p>
-                        <a href="https://github.com/zduguid/rsa-image-processing">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -330,22 +313,34 @@
 <!-- SKILLS #####################################-->
 <!-- ############################################-->
     <div id="skills">
-        <h2 class="heading"><br/>Skills</h2>
+        <h2 class="heading"><br/>Technical Skills</h2>
         <ul>
             <li>Python</li>
-            <li>Lisp</li>
-            <li>Java</li>
-            <li>JavaScript</li>
+            <li>C++</li>
             <li>C</li>
+            <li>Java</li>
+            <li>Julia</li>
+            <li>Lisp</li>
             <li>Matlab</li>
             <li>Simulink</li>
-            <li>ROS</li>
-            <li>Keras</li>
             <li>Latex</li>
-            <li>User Interface Design</li>
-            <li>CAD</li>
-            <li>3D Printing</li>
             <li>Photoshop</li>
+            <li>ROS</li>
+            <li>MOOS-IvP</li>
+            <li>3D Printing</li>
+            <li>User Interface Design</li>
+        </ul>     
+
+        <h2 class="heading"><br/>Interpersonal Skills</h2>
+        <ul>
+            <li>Leadership</li>
+            <li>Collaboration</li>
+            <li>Communication</li>
+            <li>Organization</li>
+            <li>Flexibility</li>
+            <li>Public Speaking</li>
+            <li>Time Management</li>
+            <li>Emotional Intelligence</li>
         </ul>
     </div>
     <!-- End #skills -->
@@ -372,7 +367,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2018 Zach Duguid
+                        Copyright &copy; 2019 Zach Duguid
                     </p>
                 </div>
                 <div class="col-sm-2 top">
